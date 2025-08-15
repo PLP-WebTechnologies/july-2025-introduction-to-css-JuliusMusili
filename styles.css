@@ -1,0 +1,84 @@
+/* General Page Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+.header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 1px;
+    flex-wrap: wrap;
+}
+
+/* Card Styling to Demonstrate Box Model */
+.card {
+    background-color: white;
+    border: 3px solid #0a9396;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+/* Headings */
+h1, h2 {
+    margin-top: 0;
+}
+
+/* Buttons */
+button {
+    background-color: #0a9396;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+/* Footer */
+.footer {
+    background-color: #94d2bd;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
